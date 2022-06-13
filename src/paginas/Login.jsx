@@ -35,7 +35,7 @@ const Login = () => {
       <>
       <div className="">
         <h1 
-        className="text-indigo-600 text-center md:text-6xl text-5xl p-2 font-black "> Inicia sesión y administra a tus <span 
+        className="text-indigo-600 text-center md:text-6xl text-5xl p-2 font-black "> Inicia sesión y administra a tus {''}<span 
         className="text-black">Pacientes</span></h1>
       </div>
       <div className="mt-20 md:mt-5 shadow-lg px-5 py-10 rounded-xl bg-white">

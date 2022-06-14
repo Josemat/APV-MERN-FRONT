@@ -1,12 +1,13 @@
 import usePacientes from "../hooks/usePacientes"
+import {addDays, format} from "date-fns"
+import { es } from 'date-fns/locale'
  
 const Paciente = ({paciente}) => {
     const {nombre, email, propietario, sintomas, fecha, _id } = paciente
     const {setEdicion, eliminarPAciente} = usePacientes()
 
     const formatearFecha = (fecha)=>{
-        const nuevaFecha = new Date(fecha)
-        return new Intl.DateTimeFormat('es-MX',{dateStyle: 'long'}).format(nuevaFecha)
+        return format(addDays(new Date(fecha),1),"dd 'de' MMMM 'de' YYY",{ locale: es })
     }
   return (
       <div className="mx-5 my-10 bg-white shadow-md px-5 py-10 rounded-md">

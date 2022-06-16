@@ -1,6 +1,10 @@
 # APV-MERN-FRONT
 Proyecto final de un curso de JS fullstack, el mismo es un Administrador de pacientes de veterinaria creados con stack MERN
 El mismo se basa en la creacion del Frontend con React, React-Router-Dom, React-Dom y Tailwind y se conecta al backend anteriormente creado y desplegado en Heroku
+Cuenta con validacion tanto en el frontend como en el backend, alertas, mail de registro, edición de registros...
+
+<a href="https://regal-faloodeh-f47ee4.netlify.app">Ir a la página</a>
+
 <h1>Login</h1>
 <img src="/SCREENSHOTS/login.png" />
 <h1>Registro</h1>
